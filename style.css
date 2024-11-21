@@ -79,6 +79,7 @@ iframe{
     max-width: 1200px; 
     max-height: 700px;
 }
+
 /* Gallery Container */
 .galleryContainer{
     width:100%;
@@ -94,6 +95,7 @@ iframe{
     margin: 0;
     padding: 0;
 }
+
 /* Links for Call to Action */
 button {
     background-color: #F68551;
@@ -137,11 +139,11 @@ section h2 {
     background-color: #FFF;
 }
 
-.welcomeList .missionInfo {
+.missionInfo {
     font-size: 1.2em;
 }
 
-.welcomeList .ccmLogo img {
+.ccmLogo img {
     max-width: 100%;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
