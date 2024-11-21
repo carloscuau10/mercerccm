@@ -149,6 +149,38 @@ section h2 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Officers Section */
+.officerTeam {
+    text-align: center;
+    margin: 20px;
+}
+
+.officerTeam h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.officerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 16px; /* Space between items */
+    max-width: 100%; /* Optional: to control the width */
+    margin: 0 auto; /* Center the grid on the page */
+}
+
+.officer {
+    background-color: #f9f9f9; /* Light background for each cell */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.officer h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
 /* Mass Times Section*/
 .massTimeList{
     list-style: none;
