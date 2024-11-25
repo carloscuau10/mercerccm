@@ -252,3 +252,74 @@ footer a img {
 footer a:hover img {
     opacity: 0.8;
 }
+
+/* Responsive Design for iPhones */
+@media (max-width: 768px) { /* Targets devices with a max width of 768px, including iPhones */
+
+    body {
+        padding-top: 1em;
+        font-size: 1em; /* Adjusts text size for better readability on small screens */
+    }
+
+    /* Navigation Bar */
+    nav ul {
+        flex-direction: column; /* Stack menu items vertically */
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Adds spacing between menu items */
+    }
+
+    nav ul li a {
+        font-size: 1em; /* Adjust font size for smaller screens */
+        padding: 8px 12px;
+    }
+
+    /* Header */
+    header {
+        padding: 1.5em 1em;
+    }
+
+    header h1 {
+        font-size: 2em; /* Reduces heading size */
+    }
+
+    /* Section */
+    section {
+        padding: 1em 0.5em; /* Adjust padding for smaller screens */
+    }
+
+    /* Gallery Images */
+    .mySlides {
+        max-width: 100%;
+        max-height: auto; /* Maintain aspect ratio on smaller screens */
+    }
+
+    .galleryContainer ul {
+        flex-direction: column; /* Stack images vertically */
+    }
+
+    /* Welcome Section */
+    .welcomeList li {
+        grid-template-columns: 1fr; /* Stack text and image vertically */
+        gap: 1em; /* Increase gap for clarity */
+    }
+
+    /* Officers Section */
+    .officerGrid {
+        grid-template-columns: 1fr; /* Stack officers in a single column */
+    }
+
+    /* Mass Times Section */
+    .massTimeList li {
+        grid-template-columns: 1fr; /* Stack text and image vertically */
+        gap: 1em;
+    }
+
+    /* Footer */
+    footer a img {
+        width: 60px; /* Reduce icon size */
+        height: 60px;
+    }
+}
