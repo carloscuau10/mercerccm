@@ -6,19 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mass & Sacraments</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    
     <!-- Navigation Bar -->
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="events-meetings.html">Events & Meetings</a></li>
-            <li><a href="mass-sacraments.html">Mass & Sacraments</a></li>
-            <li><a href="get-involved.html">Get Involved</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
+        <a href="index.html" class="active">Logo</a>
+        <div id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="events-meetings.html">Events & Meetings</a>
+            <a href="mass-sacraments.html">Mass & Sacraments</a>
+            <a href="ministries.html">Ministries</a>
+            <a href="contact-us.html">Contact Us</a>
+        </div>
+        <a class="icon" onclick="navToggle()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <script src="navScript.js"></script>
     </nav>
+
+
     <header>
         <h1>Mass & Sacraments</h1>
     </header>
