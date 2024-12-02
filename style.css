@@ -53,6 +53,11 @@ nav a:hover {
     color: black;
 }
 
+.ccmLogo{
+    max-width: 50vw;
+    max-height: 60vh;
+}
+
 /* Header */
 header {
     background-color: #FFC97E; 
