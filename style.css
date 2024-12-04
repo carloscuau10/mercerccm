@@ -433,9 +433,22 @@ footer hr {
     /* Welcome Section */
     .welcomeList li {
         grid-template-columns: 1fr; /* Stack text and image vertically */
-        gap: 1em; /* Increase gap for clarity */
+        gap: 1vh 1vw; /* Increase gap for clarity */
     }
 
+    .welcomeList li p{
+        max-width: 100%;
+    }
+
+    .missionInfo {
+        max-width: 100%;
+        font-size: 3vh;
+    }
+
+    .ccmLogo{
+        text-align: center;
+        max-width: 100%;
+    }
     /* Officers Section */
     .officerGrid {
         display: grid;
