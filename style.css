@@ -10,20 +10,24 @@ body {
 }
 
 h1{
-    font-size: 7vh;
+    font-family: "Poppins";
+    font-size: 6vh;
     line-height: 2vh;
 }
 
 h2{
     text-align: center;
-    font-size: 5vh;
+    font-size: 5.5vh;
     margin-bottom: 2vh;
 }
 
 h3{
     margin-bottom: 2vh;
-    font-size: 4vh;
+    font-size: 5vh;
 }
+
+/* Font Styles */
+
 
 /* Navigation Styles */
 nav {
@@ -121,18 +125,19 @@ iframe{
 
 /* Links for Call to Action */
 button {
-    background-color: #F68551;
-    color: #000;
+    background-color: #FF6D24;
+    color: #FFF;
     text-decoration: none;
     padding: 1vh 2vw;
     margin: 1vh 0;
     font-size: 3vh;
+    border: 0.25vh solid#000;
     border-radius: 5px;
     display: inline-block;
 }
 
 button:hover {
-    background-color: #FF9864;
+    background-color: #F68551;
 }
 
 /* Welcome Section*/
@@ -255,8 +260,9 @@ ul li {
     border-radius: 2%;
     max-width: 90vw;
     min-width: 70vw;
-    line-height: 7vh;
-    font-size: 5vh;
+    line-height: 5vh;
+    font-size: 3vh;
+    text-align: center;
 }
 
 /* Footer */
