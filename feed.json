@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Mercer CCM",
+    "description": "",
+    "home_page_url": "https://github.com/carloscuau10/mercerccm",
+    "feed_url": "https://github.com/carloscuau10/mercerccm/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Carlos Gutierrez"
+    },
+    "items": [
+        {
+            "id": "https://github.com/carloscuau10/mercerccm/mercer-university-catholic-campus-ministry.html",
+            "url": "https://github.com/carloscuau10/mercerccm/mercer-university-catholic-campus-ministry.html",
+            "title": "Mercer University Catholic Campus Ministry",
+            "summary": "Welcome to Mercer CCM! This version of the site will be used as the drag and drop platform.",
+            "content_html": "<h1>Welcome to Mercer CCM!</h1>\n<p>This version of the site will be used as the drag and drop platform.</p>",
+            "author": {
+                "name": "Carlos Gutierrez"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-12-20T17:15:59-05:00",
+            "date_modified": "2024-12-20T17:15:59-05:00"
+        }
+    ]
+}
