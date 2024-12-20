@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://github.com/carloscuau10/mercerccm/sitemap.xml
